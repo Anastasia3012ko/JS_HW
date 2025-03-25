@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+ font-size: 30px;
+ text-transform: uppercase;
+ color: rgb(109, 99, 99);  
+}
+ul {
+    width: 400px;
+}
+li {
+    list-style-type: circle;
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(77, 76, 76);
+    text-align: center;
+    border-radius: 10px;
+}
+.itemOne {
+    background-color: aqua;
+}
+.itemTwo {
+    background-color: rgb(97, 115, 115);
+}
+.itemThree {
+    background-color: rgb(95, 181, 152);
+}
+.itemFour {
+    background-color: rgb(164, 173, 170);
+}
+.itemFive {
+    background-color: rgb(228, 194, 153);
+}
+.itemSix {
+    background-color: rgb(72, 151, 151);
+}

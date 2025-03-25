@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="anketa">
+            <fieldset class="fieldOne">
+                <legend>Имя</legend>
+                <input class="name" type="text" name="firstname" placeholder="Фамилия" required>
+                <input class="name" type="text" name="firstname" placeholder="Имя" required>
+            </fieldset>
+            <div class="block">
+            <fieldset class="fieldTwo">
+                <legend>Пол</legend>
+                <label>
+                    <input type="radio" name="gender" value="option1"required>Мужской
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="option2" required>Женский
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="option3" required>Не хочу говорить
+                </label>
+            </fieldset>
+            <fieldset class="fieldThree">
+                <legend>Получать рассылку по</legend>
+                <label>
+                    <input type="checkbox" name="post">Email
+                </label>
+                <label>
+                    <input type="checkbox" name="post">SMS
+                </label>
+            </fieldset>
+            </div>
+            <div class="btn">
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- <form>
+        <label>How old are you?
+            <input type="number" name="are" min="1" max="100" placeholder="Age..." required>
+        </label>
+        <input type="email" name="email" placeholder="email" required>
+        <button type="submit">Send</button>
+    </form> -->
+    
+</body>
+</html>

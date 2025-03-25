@@ -1,0 +1,21 @@
+@mixin flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin text {
+    font-style: italic;
+    text-transform: uppercase;
+}
+@mixin button {
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    background-color: rgb(64, 130, 236);
+    color: white;
+    width: 20%;
+    &:hover {
+        background-color: rgb(177, 2, 2);
+    }    
+}

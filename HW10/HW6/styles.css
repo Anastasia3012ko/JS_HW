@@ -1,0 +1,41 @@
+body {
+    background-color: #a4cddc;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#anketa {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: #f0ffff;
+    border-radius: 20px;
+}
+.fieldOne, .fieldTwo, .fieldThree {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.name {
+    margin: 5px;
+}
+.block {
+    display: flex;
+}
+.fieldTwo, .fieldThree {
+    flex: 1;
+}
+.btn {
+    align-self: center;
+    margin-bottom: 20px;
+}
+button {
+    width: 100px;
+}
+
+

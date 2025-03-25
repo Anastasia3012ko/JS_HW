@@ -1,0 +1,39 @@
+@import './reset';
+@import './variables';
+@import './mixins';
+body {
+    @include flex-container
+}
+.container {
+    width: $width;
+    background-color: $background960;
+    height: 500px;
+    border-radius: $border-radius;
+    @include flex-container;
+    p {
+        font-family: $font-family;
+        color: $color;
+        font-size: 30px;
+        margin: 20px;
+        @include text
+    }
+    button {
+            @include button;
+            border-radius: $border-radius;
+            font-size: 20px;
+        }
+}
+@media all and (max-width: 768Px) {
+    .container{
+        width: 100%;
+        background-color: $background768;
+        p {
+            font-size: 15px;
+        }
+        button {
+            @include text;
+        }
+        
+    }
+    
+}

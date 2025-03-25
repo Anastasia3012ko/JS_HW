@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #2f4f4f;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    background-color: #609ea0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    }
+h2 {
+    align-self: flex-start;
+     margin: 10px;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.text, button {
+    padding: 10px;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.btn {
+    display: flex;
+    justify-content: space-around;
+    
+}
+button {
+    flex: 1;
+}
+button[type='reset'] {
+    background-color: #f08080;
+}
+.checkbox {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

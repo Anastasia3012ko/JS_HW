@@ -1,0 +1,19 @@
+div {
+  background-color: rgb(218, 191, 191);
+  font-family: Arial, sans-serif;
+  border-radius: 30px;
+}
+div .heading {
+  color: #FF0000;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+div p {
+  text-align: center;
+  color: #FF0000;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

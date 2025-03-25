@@ -1,0 +1,27 @@
+$primary-color: #FF0000;
+$background: rgb(218, 191, 191);
+$fonts: Arial, sans-serif;
+$uppercase: uppercase;
+$decoration: underline;
+$italic: italic;
+
+div {
+    background-color: $background;
+    font-family: $fonts;
+    border-radius: 30px;
+    .heading {
+        color: $primary-color;
+        text-transform: $uppercase;
+        text-align: center;
+        text-decoration: $decoration;
+    }
+    p {
+        text-align: center;
+        color: $primary-color;
+        font-style: $italic;
+        text-transform: uppercase;
+    }
+}
+    
+
+
